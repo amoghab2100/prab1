@@ -13,7 +13,7 @@ body {
 
 #logo {
 	background: url('../images/logo_large.png')  no-repeat;
-	width: 150px;
+	width: 135px;
 	height: 150px;
 	margin: 10px 15px 10px 0;
 }
@@ -25,7 +25,9 @@ body {
 @media (min-width: 1200px) {
   #logo {
     background: url('../images/logo_large.png') no-repeat;
+    width: 135;
     height: 150px;
+    margin: 10px 15px 10px 0;
   }
 }
 
@@ -56,8 +58,8 @@ body {
 @media (max-width: 767px) {
 	#logo {
 		background: url('../images/logo_small.png') no-repeat;
-    	width: 45px;
-    	height: 50px;
+    	width: 63px;
+    	height: 70px;
     	margin: 5px 5px 5px 0;
 	}
 }
