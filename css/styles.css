@@ -1,0 +1,63 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #C82B00;
+	font-family: 'Montserrat', sans-serif;;
+}
+
+#header-nav {
+	background-color: #000000;
+	border-radius: 0;
+	border: 0;
+}
+
+#logo {
+	background: url('../images/logo_large.png')  no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0;
+}
+
+
+//Media Quiries
+//Large Devices
+
+@media (min-width: 1200px) {
+  #logo {
+    background: url('../images/logo_large.png') no-repeat;
+    height: 150px;
+  }
+}
+
+//Medium Devices
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	#logo {
+		background: url('../images/logo_large.png') no-repeat;
+    	width: 90px;
+    	height: 100px;
+    	margin: 5px 5px 5px 0;
+	}
+}
+
+/*Small Devices*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#logo {
+		background: url('../images/logo_medium.png') no-repeat;
+    	width: 90px;
+    	height: 100px;
+    	margin: 5px 5px 5px 0;	
+	}
+}
+
+/*Extra Small Devices*/
+
+@media (max-width: 767px) {
+	#logo {
+		background: url('../images/logo_small.png') no-repeat;
+    	width: 45px;
+    	height: 50px;
+    	margin: 5px 5px 5px 0;
+	}
+}
